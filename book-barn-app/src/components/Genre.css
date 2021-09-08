@@ -1,0 +1,16 @@
+.genre {
+    margin: 30px;
+background-color: lightgrey;
+color: #9999e6;
+padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+width: 600px;
+
+
+}
+.genreheader {
+    padding-top: 20px;
+    background-color: white;
+
+}

@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    margin: 30px;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: lightgrey;
+    color: #9999e6;
+
+}
+
+.siteName {
+    text-shadow: 2px 2px 5px  #ebebfa;
+    font-family: monospace;
+}
