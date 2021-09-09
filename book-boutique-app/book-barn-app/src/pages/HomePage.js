@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './App.css';
-import Header from './components/Header';
-import BookList from './components/BookList';
-import Genre from './components/Genre'
+import './Home.css';
+import BookList from '../components/BookList';
+import Genre from '../components/Genre'
+
 
 class App extends Component {
   constructor() {
@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount() {
     console.log(this.componentDidMount)
-    fetch('https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json')
+    fetch('http://localhost:8080/api/books')
     .then(response => response.json())
     .then(books => {
       this.setState({
@@ -27,11 +27,10 @@ class App extends Component {
 render() {
 
   return (
-    <div>
-     <Header/>
+    <>
      <Genre/>
      <BookList books = {this.state.allBooks}/>
-    </div>
+    </>
   )
 }
 
