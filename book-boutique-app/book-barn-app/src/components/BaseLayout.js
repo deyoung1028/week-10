@@ -4,10 +4,6 @@ import Menu from "./Menu";
 
 class BaseLayout extends Component {
 
-  
-    
-  
-  
   render() {
   
     return (

@@ -15,6 +15,7 @@ render() {
             <NavLink to = "/"><div>MyBooks</div></NavLink>
             <NavLink to = "/add-book"><div>Add a Book</div></NavLink>
             <input type = 'text' className = 'searchbox' placeholder = 'Search Books'></input>
+            <NavLink to='/cart'>Cart</NavLink>
             <NavLink to = "/login"><div>Login</div></NavLink>
             <NavLink to = "/register"><div>Register</div></NavLink>
         </div>
